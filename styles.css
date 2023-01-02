@@ -16,8 +16,11 @@ body{
 
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { font-size: 11px; text-align: center; 
+color: white;
+margin-top: 10px;}
+.attribution a { color: white;}
+
 
 :root{
 --Red: hsl(0, 100%, 74%);
@@ -32,7 +35,7 @@ body{
 }
 .title-container{
     margin: 0 auto;
-    padding: 20px;
+    padding: 0px;
     text-align: center;
 }
 .title-container__title{
@@ -58,9 +61,12 @@ body{
     align-items: center;
     margin-top: 50px;
     margin-bottom: 25px;
+    -webkit-box-shadow: 0px 7px 0px 0px rgba(0,0,0,0.11);
+    -moz-box-shadow: 0px 7px 0px 0px rgba(0,0,0,0.11);
+    box-shadow: 0px 7px 0px 0px rgba(0,0,0,0.11);
 }
 .section__article__text{
-    width: 50%;
+    width: 80%;
     text-align: center;
 
     
@@ -76,7 +82,10 @@ body{
 .section__form-container{
     background-color: white;
     border-radius: 8px;
-    height: 380px;
+    height: 390px;
+    -webkit-box-shadow: 0px 7px 0px 0px rgba(0,0,0,0.11);
+    -moz-box-shadow: 0px 7px 0px 0px rgba(0,0,0,0.11);
+    box-shadow: 0px 7px 0px 0px rgba(0,0,0,0.11);
     
     
     
@@ -109,6 +118,9 @@ body{
     background-color: var(--Green);
     letter-spacing: 1px;
     margin-top: 5px;
+    -webkit-box-shadow: inset 0px -5px 0px 0px rgba(0,0,0,0.11);
+    -moz-box-shadow: inset 0px -5px 0px 0px rgba(0,0,0,0.11);
+    box-shadow: inset 0px -5px 0px 0px rgba(0,0,0,0.11)
 }
 .section__form-container__parraf{
     color: var(--Grayish-Blue);
