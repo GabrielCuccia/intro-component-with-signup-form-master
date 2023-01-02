@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    background-color: var(--Red);
+    background-image: url("./images/bg-intro-mobile.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+:root{
+--Red: hsl(0, 100%, 74%);
+--Green: hsl(154, 59%, 51%);
+--Blue: hsl(248, 32%, 49%);
+--Dark-Blue: hsl(249, 10%, 26%);
+--Grayish-Blue: hsl(246, 25%, 77%)
+}
+.main-container{
+    color: white;
+    margin: 0px 30px;
+}
+.title-container{
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+.title-container__title{
+    font-size: 2em;
+    line-height: 40px;
+    margin: 25px 0px;
+    margin-top: 70px;
+    
+}
+.title-container__parraf{
+    margin: 0px 5px;
+
+}
+.section{
+
+}
+.section__article{
+    background-color: var(--Blue);
+    height: 80px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.section__article__text{
+    width: 50%;
+    text-align: center;
+
+    
+    
+    
+    
+}
+.section__article__text span{
+    margin-right: 5px;
+    font-weight: 600;
+
+}
+.section__form-container{
+    background-color: white;
+    border-radius: 8px;
+    height: 380px;
+    
+    
+    
+}
+.section__form-container__form{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: 0px auto;
+    gap: 10px;
+    padding-top: 20px;
+    
+    
+    
+}
+.section__form-container__form__input{
+    padding: 17px;
+    border-radius: 5px;
+    border: 1px solid var(--Grayish-Blue);
+    font-weight: 600;
+    
+    
+}
+.section__form-container__form__button{
+    padding: 20px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--Green);
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+.section__form-container__parraf{
+    color: var(--Grayish-Blue);
+    font-size: 0.7em;
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 10px;
+    
+}
+.section__form-container__parraf span{
+    color: var(--Red);
+    font-weight: 600;
+    
+}
+
